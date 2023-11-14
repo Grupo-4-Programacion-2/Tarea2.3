@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejer2_3.MainPage"
+             Title="Actividad 2.3" BackgroundColor="Beige" >
+
+    <StackLayout>
+        <Entry Placeholder="Descripcion" 
+           Margin="10,40,10,10" 
+           x:Name="txtdescripcion"/>
+
+        <Button Text="Grabar" 
+                FontSize="20"
+            HorizontalOptions="Center" 
+            WidthRequest="220" 
+            HeightRequest="60" 
+                Margin="35"
+            BackgroundColor="DeepPink"
+            TextColor="White"
+            x:Name="B_Grabar" 
+            Clicked="B_Grabar_Clicked"/>
+
+        <Button Text="Lista" 
+                FontSize="20"
+            HorizontalOptions="Center" 
+            WidthRequest="220"  
+            HeightRequest="60" 
+                Margin="10"
+            BackgroundColor="DeepPink"
+            TextColor="White"
+            x:Name="B_Ver" 
+            Clicked="B_Ver_Clicked"/>
+
+
+    </StackLayout>
+
+</ContentPage>
